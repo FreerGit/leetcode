@@ -7,8 +7,8 @@
 #Invert Binary Tree - Easy
 #Valid Anagram - Easy
 #Binary Search - Easy
-Flood Fill - Easy
-Lowest Common Ancestor of a Binary Search Tree - Easy
+#Flood Fill - Easy
+#Lowest Common Ancestor of a Binary Search Tree - Easy (Medium, acc. to LC)
 Balanced Binary Tree - Easy
 Linked List Cycle - Easy
 Ransom Note - Easy
