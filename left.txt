@@ -6,7 +6,7 @@
 #Valid Palindrome - Easy
 #Invert Binary Tree - Easy
 #Valid Anagram - Easy
-Binary Search - Easy
+#Binary Search - Easy
 Flood Fill - Easy
 Lowest Common Ancestor of a Binary Search Tree - Easy
 Balanced Binary Tree - Easy
