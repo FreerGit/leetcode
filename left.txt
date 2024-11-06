@@ -9,10 +9,10 @@
 #Binary Search - Easy
 #Flood Fill - Easy
 #Lowest Common Ancestor of a Binary Search Tree - Easy (Medium, acc. to LC)
-Balanced Binary Tree - Easy
-Linked List Cycle - Easy
-Ransom Note - Easy
-Climbing Stairs - Easy
+#Balanced Binary Tree - Easy
+#Linked List Cycle - Easy
+#Ransom Note - Easy
+#Climbing Stairs - Easy
 Longest Palindrome - Easy
 Reverse Linked List - Easy
 Majority Element - Easy
