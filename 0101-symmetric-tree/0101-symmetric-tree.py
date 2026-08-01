@@ -7,30 +7,13 @@
 class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
         
-        a = []
-        b = []
-
-        def dfs_left(x, t) -> List[int]:
-            if x:
-                t.append(x.val)
-                dfs_left(x.left, t)
-                dfs_left(x.right, t)
-            else:
-                t.append(None)
-
-
-            return t
-
-        def dfs_right(x, t) -> List[int]:
-            if x:
-                t.append(x.val)
-                dfs_right(x.right, t)
-                dfs_right(x.left, t)
-            else:
-                t.append(None)
-            return t
-
-        dfs_left(root, a)
-        dfs_right(root, b)
-
-        return a == b
+        def is_mirror(n1, n2):
+            if not n1 and not n2:
+                return True
+            
+            if not n1 or not n2:
+                return False
+            
+            return n1.val == n2.val and is_mirror(n1.left, n2.right) and is_mirror(n1.right, n2.left)
+        
+        return is_mirror(root.left, root.right)
